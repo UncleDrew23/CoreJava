@@ -55,11 +55,27 @@ public class LotteryDrawing {
         // 判断数组是否相等
         boolean flag = Arrays.equals(result1,result2);
 
+        // 多维数组
+        int[][] magicSquare = {
+                {16, 3, 2, 13},
+                {5, 10, 11, 8},
+                {9, 6, 7, 12},
+                {4, 15, 14, 1}
+        };
+
+
         System.out.println(Arrays.toString(result1));
         System.out.println(Arrays.toString(result2));
         System.out.println(index);
         System.out.println(index1);
         System.out.println(Arrays.toString(result2));
         System.out.println(flag);
+
+        for(int[] row : magicSquare){
+            for(int value : row){
+                System.out.println(value);
+            }
+        }
+        System.out.println(Arrays.deepToString(magicSquare));
     }
 }
