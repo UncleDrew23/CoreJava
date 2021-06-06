@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 /**
  * @program: reflection
- * @description: TODO
+ * @description: Use reflection to print all features of a class
  * @author: ycbron
  * @create: 2021-06-06 18:19
  **/
